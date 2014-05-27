@@ -12,3 +12,5 @@ class Pedido_Item(models.Model):
 	
 	def __unicode__(self):
 		return unicode(self.pedido)
+
+	
